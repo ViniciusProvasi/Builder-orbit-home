@@ -62,6 +62,24 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Health app pastel colors
+        health: {
+          primary: "#E8F4FD", // Soft blue
+          secondary: "#F0F9F5", // Soft green
+          accent: "#FFF4E6", // Soft orange
+          purple: "#F3F0FF", // Soft purple
+          pink: "#FFF0F7", // Soft pink
+          warning: "#FFF8E6", // Soft yellow
+          error: "#FFE8E8", // Soft red
+          success: "#E8F8F0", // Light green
+        },
+        medical: {
+          heartRate: "#FFE8F0", // Soft pink for heart rate
+          bloodPressure: "#E8F0FF", // Soft blue for blood pressure
+          temperature: "#FFF0E8", // Soft peach for temperature
+          mood: "#F0E8FF", // Soft lavender for mood
+          weight: "#E8FFE8", // Soft mint for weight
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
